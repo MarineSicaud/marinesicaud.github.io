@@ -1,6 +1,6 @@
 /** Phone: petit ecran **/
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 1000px)  {
 
     html, body {
         overflow: unset !important;
@@ -198,7 +198,7 @@
 
     /** Project portfolio **/
 
-    #photographie{
+    #photographie, #autre{
         grid: auto / 1fr 1fr;
         padding: 20px;
         gap: 30px;
@@ -212,7 +212,10 @@
     }
 
     .photographie-container img {
-        min-height: unset
+        min-height: unset;
+        width: unset;
+        height: 100%;
+        min-width: unset;
     }
 
     .responcive-link {
@@ -290,113 +293,4 @@
 
 /** Tablette **/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .left {
-        width: 80%;
-    }
 
-    .logo-competence{
-        width: 40px;
-        height: 40px;
-    }
-
-    .title {
-        font-size: 40px;
-    }
-
-    .project-categorie {
-        position: relative;
-    }
-
-    .project-content-link{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: transparent;
-    }
-
-    .name-project{
-        display: none;
-    }
-
-    #porfolio {
-        gap: 50px;
-    }
-
-    .portfolio-categorie {
-        width: 90%;
-        position: relative;
-    }
-
-    .portfolio-categorie-link{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: transparent;
-    }
-
-    .categorie-content{
-        display: none;
-    }
-
-    #photographie{
-        padding: 20px;
-        gap: 30px;
-    }
-
-    .photographie-container{
-        position: relative;
-        width: unset;
-        height: unset;
-    }
-
-    .responcive-link {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: transparent;
-    }
-
-    .photographie-text{
-        display: none;
-    }
-
-    #project-pages{
-        flex-direction: column;
-        height: unset !important;
-    }
-
-    .image-project-page {
-        height: 50%;
-        width: 100% !important;
-        padding: 0 20px !important;
-    }
-
-    .image-project-page img {
-        height: 600px;
-        width: unset !important;
-    }
-
-    .description-project-page{
-        height: 50%;
-        width: 100% !important;
-        display: flex;
-        flex-direction: column !important;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .description-project-page p {
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    /* Styles pour les grands écrans ici */
-}

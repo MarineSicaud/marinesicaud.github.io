@@ -1,21 +1,7 @@
 const allProject = document.querySelectorAll('.project-content')
 const animationContainer = document.querySelector('.projects')
 
-allProject.forEach(project => {
-    project.addEventListener('mouseenter', (e) => {
 
-        if (animationContainer.className === 'projects'){
-            animationContainer.classList.add('paused')
-        }
-    })
-
-    project.addEventListener('mouseleave', (e) => {
-
-        if (animationContainer.className === 'projects paused'){
-            animationContainer.classList.remove('paused')
-        }
-    })
-})
 
 const leftImage = document.querySelector('.left')
 const title = document.querySelectorAll('.title')

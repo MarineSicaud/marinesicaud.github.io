@@ -227,8 +227,15 @@ buttonRight.addEventListener('click', () => {
         loadNewInformation()
     }else{
         index++
-        console.log(index)
         loadNewInformation()
+    }
+
+    if (getCategorie === 'autre' && index === 3 || getCategorie === 'autre' && index === 4){
+        projectImage.style.width = '100%'
+        projectImage.style.height = 'unset'
+    }else{
+        projectImage.style.width = 'unset'
+        projectImage.style.height = '100%'
     }
 })
 
@@ -238,6 +245,8 @@ function getLength(category){
             return photoProjects.length
         case 'graphisme':
             return graphismeProjects.length
+        case 'autre':
+            return autreProjects.length
         default:
             break
     }
