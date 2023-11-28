@@ -171,11 +171,12 @@
     /** Portfolio **/
 
     #porfolio {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid: auto / 1fr 1fr;
         align-items: center;
         justify-content: center;
         gap: 30px;
+        min-height: 80vh;
     }
 
     .portfolio-categorie {
@@ -212,6 +213,10 @@
 
     .zoom {
         transform: translateY(0%);
+    }
+
+    .moodboard-content, .photographie-container{
+        max-height: 400px;
     }
 
     .responcive-moodboard {
