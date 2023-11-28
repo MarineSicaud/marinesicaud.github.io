@@ -97,7 +97,7 @@ const graphismeProjects = [
     {
         id: 5,
         name: 'Portrait aspirer',
-        description: 'lorem',
+        description: 'Cette création graphique mystérieuse plonge le spectateur dans un univers introspectif et sombre. Le portrait évocateur d\'un homme, fixant intensément le ciel, est enveloppé d\'une atmosphère énigmatique. Les mains délicatement posées sur son visage, l\'homme est aspiré vers le haut, créant une tension visuelle puissante. Les tonalités sombres de l\'image accentuent l\'ambiance mystique, où chaque ombre et chaque nuance contribuent à l\'intensité émotionnelle de la scène. L\'aspiration vers l\'inconnu, symbolisée par le visage du protagoniste, plonge le spectateur dans une réflexion profonde sur la quête personnelle et la recherche constante de lumière même dans les ténèbres.',
         img: "../../../assets/graphisme/portrait_aspire.jpg"
     },
     {
@@ -143,26 +143,29 @@ const autreProjects = [
     {
         id: 0,
         name: 'Inforgraphie 1 sur le metier de Designer',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium incidunt maiores maxime minima omnis pariatur qui quibusdam quos sed. Accusamus consectetur id ipsa laudantium, magnam nemo non voluptatibus. Unde, voluptates.',
+        description: '[Yesterday 9:42 PM] SICAUD Marine\n' +
+            'Cette infographie offre une représentation visuelle motivante du chemin à suivre pour devenir web designer, guidant les aspirants à travers les étapes clés qui mènent au succès dans ce domaine dynamique et créatif. À mesure que la route se déroule, des points stratégiques marquent les jalons importants, tels que les formations recommandées, les contraintes éventuels que peut rencontrer un web designer et les possibilités d\'évolutions. Des panneaux indicateurs illustrent également des moments d\'apprentissage et de développement professionnel.',
         img: "../../../assets/autre/InforgraphieDesigner1.png"
     },
     {
         id: 1,
         name: 'Inforgraphie 2 sur le metier de Designer',
-        description: 'lorem',
+        description: 'Cette infographie visuellement captivante constitue une cartographie complète des compétences essentielles pour un web designer moderne, évoquant l\'équilibre subtil entre expertise technique, compétences relationnelles et traits comportementaux. Divisée en trois axes clés, chaque section de l\'infographie offre un aperçu visuel des domaines cruciaux à maîtriser pour exceller dans le domaine du design web.',
         img: "../../../assets/autre/InfographieDesgin2.jpg"
 
     },
     {
         id: 2,
         name: 'Moodboard pour le projet EcoLife',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium incidunt maiores maxime minima omnis pariatur qui quibusdam quos sed. Accusamus consectetur id ipsa laudantium, magnam nemo non voluptatibus. Unde, voluptates.',
+        description: 'Cette création visuelle immersive est le moodboard captivant conçu pour \'Écolife\', une entreprise fictive dédiée à promouvoir un mode de vie écologique et durable. Les éléments soigneusement sélectionnés convergent pour évoquer une esthétique épurée, dynamique et en harmonie avec la nature.\n' +
+            'La palette de couleurs, composée de verts apaisants et de tons terreux, font écho à l\'environnement. Des visuels de végétations luxuriantes expriment la beauté de la nature, soulignant le lien essentiel entre l\'homme et son écosystème.\n' +
+            'Des textures organiques, telles que des fibres naturelles, créent une sensibilité tactile, représentant l\'engagement de "Écolife" envers des pratiques durables. De plus, une citation est placées dans le moodboard afin de créer une  sources d\'inspiration et de motivation. Elle rappelle l\'importance de l\'engagement envers des pratiques écologiques, qui inspire un changement de comportement en faveur de la durabilité.',
         img: "../../../assets/autre/MoodBoardEcolife.jpg"
     },
     {
         id: 3,
         name: 'Moodboard de moi',
-        description: 'lorem',
+        description: 'Ce moodboard somptueux incarne l\'essence même de ma personnalité déterminée et orientée vers la réussite, avec une passion manifeste pour le luxe et la haute couture. Les tons beiges et marrons clairs évoquent une palette raffinée et intemporelle, tandis que les éléments soigneusement choisis créent une symphonie visuelle élégante et inspirante. Des typographies soigneusement sélectionnées, renforcent l\'élégant du moodboard. Des citations inspirantes sur la détermination et le succès sont intégrées pour soutenir visuellement mon engagement envers l\'accomplissement professionnel. Nous retrouvons également des visuels de Vogue, symbole de la haute couture, ajoutent une touche de sophistication, qui reflètent mon intérêt pour l\'industrie de la mode et l\'excellence artistique.',
         img: "../../../assets/autre/MyMoodboard.png"
 
     },
