@@ -123,6 +123,10 @@ h1, h2, h3, h4{
     font-family: 'Playfair Display', serif;
 }
 
+p{
+    color: black !important;
+}
+
 body {
     background: #FAEBDC;
     scroll-behavior: smooth;
