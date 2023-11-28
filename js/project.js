@@ -57,7 +57,7 @@ const photoProjects = [
     },
     {
         id: 8,
-        name: 'Photo cabanne pecheur',
+        name: 'Photo cabane pecheur',
         description: 'Cette image saisissante témoigne de la symbiose entre l\'homme et la nature, capturant un pêcheur solitaire à proximité de sa cabane, tandis que le soleil fait ses adieux dans un spectaculaire dégradé de rose et de bleu. Le ciel envoûtant, teinté des derniers feux du coucher de soleil, crée une toile de fond irréelle pour cette scène maritime. Le pêcheur, silhouette robuste, incarne la quiétude d\'un quotidien inscrit dans le rythme des marées. La cabane, humble témoin de la vie maritime, se dresse avec simplicité face à la majesté du crépuscule. Les nuances délicates de rose et de bleu fusionnent dans un tableau céleste, créant une harmonie visuelle apaisante.',
         img: "../../../assets/photo/photo-cabanne-pecheur.jpeg"
     },
@@ -143,8 +143,7 @@ const autreProjects = [
     {
         id: 0,
         name: 'Inforgraphie 1 sur le metier de Designer',
-        description: '[Yesterday 9:42 PM] SICAUD Marine\n' +
-            'Cette infographie offre une représentation visuelle motivante du chemin à suivre pour devenir web designer, guidant les aspirants à travers les étapes clés qui mènent au succès dans ce domaine dynamique et créatif. À mesure que la route se déroule, des points stratégiques marquent les jalons importants, tels que les formations recommandées, les contraintes éventuels que peut rencontrer un web designer et les possibilités d\'évolutions. Des panneaux indicateurs illustrent également des moments d\'apprentissage et de développement professionnel.',
+        description: 'Cette infographie offre une représentation visuelle motivante du chemin à suivre pour devenir web designer, guidant les aspirants à travers les étapes clés qui mènent au succès dans ce domaine dynamique et créatif. À mesure que la route se déroule, des points stratégiques marquent les jalons importants, tels que les formations recommandées, les contraintes éventuels que peut rencontrer un web designer et les possibilités d\'évolutions. Des panneaux indicateurs illustrent également des moments d\'apprentissage et de développement professionnel.',
         img: "../../../assets/autre/InforgraphieDesigner1.png"
     },
     {
@@ -220,6 +219,8 @@ buttonLeft.addEventListener('click', () => {
         loadNewInformation()
     }
 })
+
+console.log(getLength(getCategorie))
 
 buttonRight.addEventListener('click', () => {
     if (index == getLength(getCategorie)){
