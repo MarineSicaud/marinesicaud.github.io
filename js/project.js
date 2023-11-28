@@ -212,7 +212,7 @@ function loadNewInformation(){
 
 buttonLeft.addEventListener('click', () => {
     if (index == 1){
-        index = 5
+        index = getLength(getCategorie)
         loadNewInformation()
     }else{
         index--
