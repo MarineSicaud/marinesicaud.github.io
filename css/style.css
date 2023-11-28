@@ -573,6 +573,10 @@ ul {
     height: unset;
 }
 
+.zoom {
+    transform: translateY(22%)
+}
+
 .photographie-text{
     position: absolute;
     background: rgba(0,0,0, .7);

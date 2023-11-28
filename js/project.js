@@ -217,6 +217,14 @@ buttonLeft.addEventListener('click', () => {
         index--
         loadNewInformation()
     }
+
+    if (getCategorie === 'autre' && index === 3 || getCategorie === 'autre' && index === 4){
+        projectImage.style.width = '100%'
+        projectImage.style.height = 'unset'
+    }else{
+        projectImage.style.width = 'unset'
+        projectImage.style.height = '100%'
+    }
 })
 
 console.log(getLength(getCategorie))

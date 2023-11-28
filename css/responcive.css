@@ -211,10 +211,22 @@
         height: 250px;
     }
 
+    .moodboard-content{
+        height: 250px;
+    }
+
+    .zoom {
+        transform: translateY(17%);
+    }
+
+    .responcive-moodboard {
+        width: auto;
+        transform: scale(.6) translate(-50%, -40%);
+    }
+
     .photographie-container img {
         min-height: unset;
-        width: unset;
-        height: 100%;
+        width: 100%;
         min-width: unset;
     }
 
