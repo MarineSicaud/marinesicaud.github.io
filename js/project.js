@@ -17,7 +17,7 @@ const photoProjects = [
     },
     {
         id: 2,
-        name: 'Photo Porche',
+        name: 'Photo Porsche',
         description: 'Capturée en noir et blanc, cette image saisit l\'essence intemporelle d\'une Porsche, symbole ultime de l\'élégance automobile. La carrosserie brillante agit comme un miroir, réfléchissant avec grâce les éléments de son environnement. Les lignes audacieuses de la voiture se marient harmonieusement avec les jeux de lumière et d\'ombre, créant une symphonie visuelle captivante. Les reflets subtils dans la carrosserie transmettent une histoire silencieuse. Cette photographie témoigne de l\'alliance entre la sophistication du design automobile et la subtilité artistique de la photographie en noir et blanc, capturant l\'instant où la puissance mécanique rencontre l\'esthétique intemporelle.',
         img: "../../../assets/photo/porche.jpg"
     },
@@ -72,7 +72,7 @@ const graphismeProjects = [
     },
     {
         id: 1,
-        name: 'Affiche chaussure new balance',
+        name: 'Affiche chaussure New Balance',
         description: 'Cette première page de magazine, conçue à des fins publicitaires pour la marque de chaussures New Balance, évoque un sentiment décontractée et d\'innovation. Le fond de papier froissé crée une texture visuelle unique, ajoutant une touche de spontanéité à la composition. Dans un équilibre subtil, les nuances vertes habillent la scène, évoquant la couleur distinctive de la paire de chaussures New Balance présentée. La mise en page soigneusement pensée, avec des éléments graphiques épurés, met en valeur la simplicité et l\'esthétique moderne de la marque. Cette première page de magazine est une invitation visuelle à découvrir l\'harmonie entre le style et le confort, incarnée par la paire de chaussures New Balance.',
         img: "../../../assets/graphisme/affichenewbalance.jpg"
     },
@@ -84,7 +84,7 @@ const graphismeProjects = [
     },
     {
         id: 3,
-        name: 'Poster Porche',
+        name: 'Poster Porsche',
         description: 'Cette création graphique allie la puissance iconique d\'une Porsche vert émeraude avec la majesté intemporelle des montagnes en arrière-plan. La voiture, élégante et dynamique, trône au centre de l\'image, capturant l\'essence de la performance et du style. En arrière-plan, les montagnes en noir et blanc sont intentionnellement floutées, créant un contraste visuel saisissant qui met en valeur la Porsche de manière encore plus percutante. L\'effet de flou confère une dimension artistique à la scène, accentuant la séparation entre la puissance de la machine et la sérénité de la nature environnante. Cette composition captivante incarne l\'harmonie entre la performance automobile et la beauté naturelle, où la Porsche devient le point focal d\'une expérience visuelle qui évoque à la fois l\'excitation de la conduite et la majesté des paysages qui défilent.',
         img: "../../../assets/graphisme/porche.jpg"
     },
@@ -96,7 +96,7 @@ const graphismeProjects = [
     },
     {
         id: 5,
-        name: 'Portrait aspirer',
+        name: 'Portrait aspiré',
         description: 'Cette création graphique mystérieuse plonge le spectateur dans un univers introspectif et sombre. Le portrait évocateur d\'un homme, fixant intensément le ciel, est enveloppé d\'une atmosphère énigmatique. Les mains délicatement posées sur son visage, l\'homme est aspiré vers le haut, créant une tension visuelle puissante. Les tonalités sombres de l\'image accentuent l\'ambiance mystique, où chaque ombre et chaque nuance contribuent à l\'intensité émotionnelle de la scène. L\'aspiration vers l\'inconnu, symbolisée par le visage du protagoniste, plonge le spectateur dans une réflexion profonde sur la quête personnelle et la recherche constante de lumière même dans les ténèbres.',
         img: "../../../assets/graphisme/portrait_aspire.jpg"
     },
@@ -132,9 +132,8 @@ const graphismeProjects = [
     },
     {
         id: 11,
-        name: "Design d'une Porche",
-        description: '[2:46 PM] SICAUD Marine\n' +
-            'Cette affiche démontre l\'excellence automobile avec une représentation graphique de la marque emblématique Porsche. L\'esthétique sophistiquée et dynamique de la Porsche est mise en avant dans cette composition visuelle, capturant la fusion parfaite entre performance et élégance. L\'utilisation habile de l\'espace et des nuances renforce l\'impression globale, offrant une expérience visuelle qui suscite l\'admiration et l\'aspiration.',
+        name: "Design Porsche",
+        description: 'Cette affiche démontre l\'excellence automobile avec une représentation graphique de la marque emblématique Porsche. L\'esthétique sophistiquée et dynamique de la Porsche est mise en avant dans cette composition visuelle, capturant la fusion parfaite entre performance et élégance. L\'utilisation habile de l\'espace et des nuances renforce l\'impression globale, offrant une expérience visuelle qui suscite l\'admiration et l\'aspiration.',
         img: "../../../assets/graphisme/porche-design.webp"
     },
 ]
@@ -142,13 +141,13 @@ const graphismeProjects = [
 const autreProjects = [
     {
         id: 0,
-        name: 'Inforgraphie 1 sur le metier de Designer',
+        name: 'Infographie sur le metier de Web Designer',
         description: 'Cette infographie offre une représentation visuelle motivante du chemin à suivre pour devenir web designer, guidant les aspirants à travers les étapes clés qui mènent au succès dans ce domaine dynamique et créatif. À mesure que la route se déroule, des points stratégiques marquent les jalons importants, tels que les formations recommandées, les contraintes éventuels que peut rencontrer un web designer et les possibilités d\'évolutions. Des panneaux indicateurs illustrent également des moments d\'apprentissage et de développement professionnel.',
         img: "../../../assets/autre/InforgraphieDesigner1.png"
     },
     {
         id: 1,
-        name: 'Inforgraphie 2 sur le metier de Designer',
+        name: 'Infographie sur les compétance requise pour être web Designer',
         description: 'Cette infographie visuellement captivante constitue une cartographie complète des compétences essentielles pour un web designer moderne, évoquant l\'équilibre subtil entre expertise technique, compétences relationnelles et traits comportementaux. Divisée en trois axes clés, chaque section de l\'infographie offre un aperçu visuel des domaines cruciaux à maîtriser pour exceller dans le domaine du design web.',
         img: "../../../assets/autre/InfographieDesgin2.jpg"
 
@@ -163,7 +162,7 @@ const autreProjects = [
     },
     {
         id: 3,
-        name: 'Moodboard de moi',
+        name: 'Moodboard de ma personalitée',
         description: 'Ce moodboard somptueux incarne l\'essence même de ma personnalité déterminée et orientée vers la réussite, avec une passion manifeste pour le luxe et la haute couture. Les tons beiges et marrons clairs évoquent une palette raffinée et intemporelle, tandis que les éléments soigneusement choisis créent une symphonie visuelle élégante et inspirante. Des typographies soigneusement sélectionnées, renforcent l\'élégant du moodboard. Des citations inspirantes sur la détermination et le succès sont intégrées pour soutenir visuellement mon engagement envers l\'accomplissement professionnel. Nous retrouvons également des visuels de Vogue, symbole de la haute couture, ajoutent une touche de sophistication, qui reflètent mon intérêt pour l\'industrie de la mode et l\'excellence artistique.',
         img: "../../../assets/autre/MyMoodboard.png"
 
