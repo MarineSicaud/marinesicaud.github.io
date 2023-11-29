@@ -23,7 +23,7 @@ setTimeout(() => {
 
 setTimeout(() => {
     paragraphePresentation.style.opacity = '1'
-}, 2100)
+}, 2900)
 
 function loadAnimation(pourcentage){
     if (pourcentage >= 43) {

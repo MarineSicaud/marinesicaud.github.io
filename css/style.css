@@ -291,7 +291,7 @@ ul {
     text-align: justify;
     font-size: 16px;
     animation: loadP 1s;
-    animation-delay: 1.2s;
+    animation-delay: 2s;
     opacity: 0;
 }
 
@@ -657,6 +657,10 @@ ul {
     width: 80%;
 }
 
+.center-button{
+    margin-left: 30%;
+}
+
 .left-button, .right-button{
     position: relative;
     background: transparent;
@@ -667,18 +671,18 @@ ul {
 
 .left-button::after {
     content: '';
-    width: 50%;
+    width: 40px;
     height: 1px;
     background: black;
     position: absolute;
-    top: 32%;
+    top: -6%;
     left: 0;
     transform: rotate(135deg);
 }
 
 .left-button::before {
     content: '';
-    width: 50%;
+    width: 40px;
     height: 1px;
     background: black;
     position: absolute;
@@ -689,18 +693,18 @@ ul {
 
 .right-button::after {
     content: '';
-    width: 50%;
+    width: 40px;
     height: 1px;
     background: black;
     position: absolute;
-    bottom: 32%;
+    bottom: -6%;
     right: 0;
     transform: rotate(135deg);
 }
 
 .right-button::before {
     content: '';
-    width: 50%;
+    width: 40px;
     height: 1px;
     background: black;
     position: absolute;

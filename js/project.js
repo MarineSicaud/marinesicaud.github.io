@@ -141,13 +141,13 @@ const graphismeProjects = [
 const autreProjects = [
     {
         id: 0,
-        name: 'Infographie sur le metier de Web Designer',
+        name: 'Infographie sur le métier de Web Designer',
         description: 'Cette infographie offre une représentation visuelle motivante du chemin à suivre pour devenir web designer, guidant les aspirants à travers les étapes clés qui mènent au succès dans ce domaine dynamique et créatif. À mesure que la route se déroule, des points stratégiques marquent les jalons importants, tels que les formations recommandées, les contraintes éventuels que peut rencontrer un web designer et les possibilités d\'évolutions. Des panneaux indicateurs illustrent également des moments d\'apprentissage et de développement professionnel.',
         img: "../../../assets/autre/InforgraphieDesigner1.png"
     },
     {
         id: 1,
-        name: 'Infographie sur les compétance requise pour être web Designer',
+        name: 'Infographie sur les compétences requises pour être web Designer',
         description: 'Cette infographie visuellement captivante constitue une cartographie complète des compétences essentielles pour un web designer moderne, évoquant l\'équilibre subtil entre expertise technique, compétences relationnelles et traits comportementaux. Divisée en trois axes clés, chaque section de l\'infographie offre un aperçu visuel des domaines cruciaux à maîtriser pour exceller dans le domaine du design web.',
         img: "../../../assets/autre/InfographieDesgin2.jpg"
 
@@ -162,7 +162,7 @@ const autreProjects = [
     },
     {
         id: 3,
-        name: 'Moodboard de ma personalitée',
+        name: 'Moodboard de ma personalité',
         description: 'Ce moodboard somptueux incarne l\'essence même de ma personnalité déterminée et orientée vers la réussite, avec une passion manifeste pour le luxe et la haute couture. Les tons beiges et marrons clairs évoquent une palette raffinée et intemporelle, tandis que les éléments soigneusement choisis créent une symphonie visuelle élégante et inspirante. Des typographies soigneusement sélectionnées, renforcent l\'élégant du moodboard. Des citations inspirantes sur la détermination et le succès sont intégrées pour soutenir visuellement mon engagement envers l\'accomplissement professionnel. Nous retrouvons également des visuels de Vogue, symbole de la haute couture, ajoutent une touche de sophistication, qui reflètent mon intérêt pour l\'industrie de la mode et l\'excellence artistique.',
         img: "../../../assets/autre/MyMoodboard.png"
 
