@@ -323,10 +323,6 @@ ul {
     opacity: 0;
 }
 
-.logo-competence:hover{
-    transform: scale(1.2);
-}
-
 .logo-competence img {
     width: 100%;
 }
@@ -631,6 +627,7 @@ ul {
     align-items: center;
     justify-content: center;
     position: relative;
+    cursor: zoom-in;
 }
 
 .image-project-page {
