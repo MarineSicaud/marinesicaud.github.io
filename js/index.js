@@ -25,12 +25,7 @@ setTimeout(() => {
     paragraphePresentation.style.opacity = '1'
 }, 2100)
 
-document.body.onscroll = () => {
-    const scroll = window.scrollY
-    const pageHeight = document.querySelector('html').offsetHeight
-
-    const pourcentage = Math.round((scroll + window.innerHeight) / pageHeight * 100)
-
+function loadAnimation(pourcentage){
     if (pourcentage >= 43) {
         competanceContainer.classList.add('competance-anim');
         competanceLogo.forEach(logo => {
@@ -53,7 +48,7 @@ document.body.onscroll = () => {
     }
 
 
-    if(pourcentage >= 60){
+    if(pourcentage >= 57){
         allProject.forEach(project => {
             project.classList.add('project-content-animation')
         })
@@ -66,5 +61,29 @@ document.body.onscroll = () => {
     if(pourcentage >= 98){
         footer.classList.add('footer-container-animation')
     }
+}
+
+document.body.onload = () => {
+    const scroll = window.scrollY
+    const pageHeight = document.querySelector('html').offsetHeight
+
+    const pourcentage = Math.round((scroll + window.innerHeight) / pageHeight * 100)
+
+    console.log(pourcentage)
+
+    setTimeout(() => {
+        loadAnimation(pourcentage)
+    }, 2300)
+}
+
+document.body.onscroll = () => {
+    const scroll = window.scrollY
+    const pageHeight = document.querySelector('html').offsetHeight
+
+    const pourcentage = Math.round((scroll + window.innerHeight) / pageHeight * 100)
+
+    console.log(pourcentage)
+
+    loadAnimation(pourcentage)
 }
 

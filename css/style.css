@@ -93,11 +93,11 @@
 
 @keyframes loading {
     0% {
-        transform: translate(-52.5%, -51.5%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
     }
 
     100% {
-        transform: translate(-52.5%, -51.5%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
     }
 }
 
@@ -566,6 +566,7 @@ ul {
 
 .zoom {
     transform: translateY(34%) scale(1.7);
+    min-width: unset;
 }
 
 .photographie-text{
@@ -845,6 +846,6 @@ ul {
     background-position: center;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 49.7%;
     animation: loading 2s forwards infinite;
 }
