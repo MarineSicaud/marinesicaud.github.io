@@ -5,13 +5,11 @@ const close = document.querySelector('.cross')
 const ongletContainer = document.querySelectorAll('.onglet-container')
 
 open.addEventListener('click', () => {
-    console.log('e')
     ongletContainer[1].classList.add('onglet-container-open')
     document.querySelector('html').classList.add('remove-scroll')
 })
 
 close.addEventListener('click', () => {
-    console.log('e')
     ongletContainer[1].classList.remove('onglet-container-open')
     document.querySelector('html').classList.remove('remove-scroll')
 })

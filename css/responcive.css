@@ -134,6 +134,11 @@
         width: 100%;
     }
 
+    .acceuil-title{
+        width: 100%;
+        font-size: 35px;
+    }
+
     .competance{
         padding: 30px 20px;
         border-radius: 10px;

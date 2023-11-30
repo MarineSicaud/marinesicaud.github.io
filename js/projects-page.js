@@ -13,8 +13,6 @@ for (let i = 0; i < photographieContainer.length; i++) {
     }, (timer + 300))
 
     timer = timer + 300
-
-    console.log(timer)
 }
 
 for (let i = 0; i < moodboardContainer.length; i++) {
@@ -26,6 +24,4 @@ for (let i = 0; i < moodboardContainer.length; i++) {
     }, (timer + 300))
 
     timer = timer + 300
-
-    console.log(timer)
 }

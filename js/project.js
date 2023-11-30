@@ -176,15 +176,12 @@ const buttonLeft = document.querySelector('.left-button')
 const buttonRight = document.querySelector('.right-button')
 
 const getUrl = window.location.pathname
-const getPath = getUrl.replace('/portfolio/project-pages/', '')
+const getPath = getUrl.replace('/portfolio/', '')
 const pathParams = getPath.split('/')
 const getIndex = pathParams[1].replace('.html', '')
 let index = getIndex
 const getCategorie = pathParams[0]
-console.log(getCategorie, index)
 loadNewInformation()
-
-console.log(getCategorie)
 
 function loadNewInformation(){
     switch (getCategorie){
@@ -226,8 +223,6 @@ buttonLeft.addEventListener('click', () => {
         projectImage.style.height = '100%'
     }
 })
-
-console.log(getLength(getCategorie))
 
 buttonRight.addEventListener('click', () => {
     if (index == getLength(getCategorie)){
