@@ -176,7 +176,7 @@ const buttonLeft = document.querySelector('.left-button')
 const buttonRight = document.querySelector('.right-button')
 
 const getUrl = window.location.pathname
-const getPath = getUrl.replace('/portfolio/', '')
+const getPath = getUrl.replace('/projets/', '')
 const pathParams = getPath.split('/')
 const getIndex = pathParams[1].replace('.html', '')
 let index = getIndex
