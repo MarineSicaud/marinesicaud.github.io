@@ -139,6 +139,10 @@
         font-size: 35px;
     }
 
+    .project-title{
+        margin: 0;
+    }
+
     .competance{
         margin: 30px 20px;
         padding: 30px 20px;
