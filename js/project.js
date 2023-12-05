@@ -149,7 +149,7 @@ const autreProjects = [
         id: 1,
         name: 'Infographie sur les compétences requises pour être web Designer',
         description: 'Cette infographie visuellement captivante constitue une cartographie complète des compétences essentielles pour un web designer moderne, évoquant l\'équilibre subtil entre expertise technique, compétences relationnelles et traits comportementaux. Divisée en trois axes clés, chaque section de l\'infographie offre un aperçu visuel des domaines cruciaux à maîtriser pour exceller dans le domaine du design web.',
-        img: "../../../assets/autre/InfographieDesgin2.jpg"
+        img: "../../../assets/autre/InfographieDesgin2.webp"
 
     },
     {
