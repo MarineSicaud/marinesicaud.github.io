@@ -143,7 +143,7 @@ const autreProjects = [
         id: 0,
         name: 'Infographie sur le métier de Web Designer',
         description: 'Cette infographie offre une représentation visuelle motivante du chemin à suivre pour devenir web designer, guidant les aspirants à travers les étapes clés qui mènent au succès dans ce domaine dynamique et créatif. À mesure que la route se déroule, des points stratégiques marquent les jalons importants, tels que les formations recommandées, les contraintes éventuels que peut rencontrer un web designer et les possibilités d\'évolutions. Des panneaux indicateurs illustrent également des moments d\'apprentissage et de développement professionnel.',
-        img: "../../../assets/autre/InforgraphieDesigner1.png"
+        img: "../../../assets/autre/InforgraphieDesigner1.webp"
     },
     {
         id: 1,
