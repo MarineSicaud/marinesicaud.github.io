@@ -3,7 +3,7 @@
 const photoProjects = [
     {
         id: 0,
-        name: 'Photo Ombre  / Lumière',
+        name: 'Photo Ombres / Lumières',
         description: 'Cette photographie révèle la beauté mystérieuse d\'un lieu empreint d\'histoire, baigné dans une obscurité subtile et éclairé par la lueur douce d\'un lustre. L\'atmosphère intemporelle est capturée par le jeu magique de lumière et d\'ombre qui danse à travers la pièce. Le lustre, témoin silencieux du passé, projette des reflets délicats sur le sol, créant une toile d\'ombres éthérées. Chaque contour, chaque détail de l\'architecture se découvre dans ce ballet de lumières, évoquant une ambiance à la fois nostalgique et envoûtante. Cette photographie, telle une fenêtre ouverte sur le passé, célèbre la beauté poétique des espaces oubliés, où la lumière et l\'obscurité entrelacent leurs mystères pour créer une scène captivante et intemporelle.',
         img: "../../../assets/photo/light.jpg"
 
@@ -30,7 +30,7 @@ const photoProjects = [
     },
     {
         id: 4,
-        name: 'Photo Bateaux',
+        name: 'Photo Bateau',
         description: 'Cette photographie, capturée à bord d\'un bateau, présente une scène maritime qui évoque l\'esprit de l\'aventure. Au premier plan, une bouée solitaire repose sur le couloir du navire. Les lignes épurées de la balustrade du bateau créent un motif géométrique qui guide le regard, tandis que le paysage en arrière-plan offre une toile de fond épique. L\'ensemble de l\'image harmonise l\'essence du voyage et de la découverte, capturant l\'interaction entre les éléments maritimes et la structure du bateau. Cette composition visuelle soigneusement orchestrée sert à la fois de témoignage du périple passé et d\'invitation à contempler l\'horizon infini qui s\'étend, symbolisant l\'infini potentiel des voyages à venir.',
         img: "../../../assets/photo/photo-bateau.jpeg"
     },
@@ -54,12 +54,6 @@ const photoProjects = [
         description: 'Cette capture emblématique transporte le spectateur au cœur du quartier de Notting Hill, où l\'essence pittoresque de Londres s\'exprime à travers une maison d\'un rose délicat. L\'élégance classique de l\'architecture londonienne se dévoile dans chaque détail de cette demeure, soulignée par l\'audace du choix de couleur. Un escalier noir, comme une ligne de mélodie contrastante, guide le regard vers l\'entrée, ajoutant une touche dramatique à la scène. Les façades vibrantes des maisons environnantes se fondent harmonieusement dans le paysage urbain, créant une symphonie visuelle où la tradition architecturale rencontre l\'expression individuelle.',
         img: "../../../assets/photo/londonRose.jpg"
 
-    },
-    {
-        id: 8,
-        name: 'Photo cabane pecheur',
-        description: 'Cette image saisissante témoigne de la symbiose entre l\'homme et la nature, capturant un pêcheur solitaire à proximité de sa cabane, tandis que le soleil fait ses adieux dans un spectaculaire dégradé de rose et de bleu. Le ciel envoûtant, teinté des derniers feux du coucher de soleil, crée une toile de fond irréelle pour cette scène maritime. Le pêcheur, silhouette robuste, incarne la quiétude d\'un quotidien inscrit dans le rythme des marées. La cabane, humble témoin de la vie maritime, se dresse avec simplicité face à la majesté du crépuscule. Les nuances délicates de rose et de bleu fusionnent dans un tableau céleste, créant une harmonie visuelle apaisante.',
-        img: "../../../assets/photo/photo-cabanne-pecheur.jpeg"
     },
 ]
 
