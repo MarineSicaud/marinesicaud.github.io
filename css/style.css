@@ -132,10 +132,11 @@ body {
     scroll-behavior: smooth;
     touch-action: pan-y;
     position: relative;
+    overflow-x: hidden !important;
 }
 
 .remove-overflow {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     overflow-y: scroll;
 }
 
