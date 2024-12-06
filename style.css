@@ -71,7 +71,6 @@ main {
       rgba(2, 0, 36, 0) 70%
     );
     border-radius: 50%;
-    z-index: -1;
   }
 
   &::before {
@@ -89,6 +88,5 @@ main {
       rgba(2, 0, 36, 0) 70%
     );
     border-radius: 50%;
-    z-index: -1;
   }
 }
