@@ -43,6 +43,7 @@ main {
   justify-content: center;
   flex-direction: column;
   gap: 30px;
+  z-index: 999;
 
   h1 {
     font-family: "Poppins";
