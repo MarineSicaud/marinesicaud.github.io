@@ -31,7 +31,7 @@ html, body {
     height: 100vh;
   position: relative;
   overflow: hidden;
-  background: #efefef;
+  
 }
 
 main {
@@ -44,6 +44,7 @@ main {
   flex-direction: column;
   gap: 30px;
   z-index: 999;
+  background: #efefef;
 
   h1 {
     font-family: "Poppins";
