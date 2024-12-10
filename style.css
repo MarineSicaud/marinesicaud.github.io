@@ -48,10 +48,12 @@ main {
 
   h1 {
     font-family: "Poppins";
+    z-index: 999;
   }
 
   img {
     width: 200px;
+    z-index: 999;
   }
 
   &::after {
